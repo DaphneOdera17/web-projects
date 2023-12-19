@@ -25,7 +25,7 @@
     font-size: 12px;
 }
 /* 设置容器的左右居中 */
-.black-nav .wrap{
+.wrap{
     width: 1226px;
     margin: 0 auto;
 }
@@ -126,3 +126,91 @@
     height: 100px;
 }
 /* 黑色导航 end */
+
+/* 白色导航 start */
+
+.white-nav{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+.logo{
+    width: 55px;
+    height: 55px;
+    background-color: #ff6700;
+    float: left;
+    margin-top: 22.5px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px; /* 让 logo 图片圆角效果 */
+}
+.logo>img{
+    width: 100%;
+    height: 55px;
+    position: absolute;
+    top: 0;
+    transition: all 0.2s; /* 实现动画效果 */
+}
+.mi-home{
+    left: -55px;
+}
+.mi-logo{
+    left: 0;
+}
+.logo:hover>.mi-home{
+    left: 0;
+}
+.logo:hover>.mi-logo{
+    left: 55px;
+}
+.nav-bar{
+    width: 875px;
+    height: 100px;
+    line-height: 100px; /* 是他上下居中 */
+    float: left;
+}
+.search{
+    width: 296px;
+    height: 100px;
+    float: right;
+}
+.nav-bar li{
+    float: left;
+}
+.nav-bar li a{
+    color: #333;
+    padding: 0 10px; /* 左右间隔 10px */
+}
+/* 鼠标移动上去颜色变成橘黄色 */
+.nav-bar li a:hover{
+    color: #ff6700;
+}
+.nav-bar ul li img{
+    margin-top: 22.5px; /* 距离顶部为 22.5px */
+}
+/* 设置搜索框 */
+.search input{
+    width: 244px;
+    height: 50px;
+    float: left;
+    border: 1px solid #e0e0e0; 
+    box-sizing: border-box; /* 盒模型 */
+    margin-top: 25px;
+    padding: 0 10px; /* 让输入框中的文本向右侧移动 10px */
+    border-right: 0; /* 将右边框置为 0 */
+    outline: none; /* 让选中文本框后不会有黑色边框 */
+}
+.search button{
+    /* 296 - 244 = 52 */
+    width: 52px;
+    height: 50px;
+    float: right;
+    border: 1px solid #e0e0e0;
+    margin-top: 25px;
+}
+.search button:hover{
+    background-color: #ff6700;
+    color: #fff;
+}
+
+/* 白色导航 end */
