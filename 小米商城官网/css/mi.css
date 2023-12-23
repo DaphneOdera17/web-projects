@@ -326,3 +326,55 @@
 }
 
 /* Banner end */
+
+/* ad start */
+
+.ad{
+    width: 100%;
+    height: 170px;
+    padding: 14px 0;
+    background-color: #fff;
+}
+.ad-aside{
+    width: 234px; /* 宽度和上方的一样 */
+    height: 170px;
+    background-color: #5f5750;
+    padding: 3px;
+    box-sizing: border-box;
+    font-size: 12px;
+    float: left;
+}
+.ad-aside li{
+    float: left;
+    /* (234 - 6) / 3 */
+    width: 76px;
+    height: 82px;
+    padding-top: 18px;
+    box-sizing: border-box;
+    opacity: 0.7; /* 设置透明度 */
+}
+/* 设置图标 */
+.ad-aside i{
+    font-size: 24px;
+    margin-bottom: 4px; /* 让图片和文本有一点空隙 */
+    display: block;
+    color: #fff;
+}
+.ad-aside p{
+    color: #fff;
+}
+.ad-aside li:hover{
+    opacity: 1; /* 当鼠标悬浮上去，透明度变为完全不透明 */
+}
+.ad-img{
+    /* 316 * 3 = 948px */
+    width: 316px;
+    margin-left: 14.6px;
+    height: 170px;
+    float: left;
+}
+.ad-img img{
+    width: 100%;
+}
+
+/* ad end */
