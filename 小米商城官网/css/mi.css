@@ -134,6 +134,8 @@
     height: 100px;
     background-color: #fff;
     position: relative;
+    z-index: 2; /* 设置较高的 z-index 值，用于指定定位元素的层叠顺序 */
+    /* 具有较高 z-index 值的元素将会位于具有较低 z-index 值的元素之上 */
 }
 .logo{
     width: 55px;
@@ -223,6 +225,7 @@
     left: 0;
     top: 100px;
     display: none;
+    z-index: 1; /* 设置较低的 z-index 值 */
 }
 .nav-bar li:hover>.nav-bar-list{
     display: block;
