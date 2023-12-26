@@ -60,6 +60,7 @@
     left: 50%;
     margin-left: -62px;
     overflow: hidden;
+    z-index: 3;
 }
 .download img{
     width: 90px;
