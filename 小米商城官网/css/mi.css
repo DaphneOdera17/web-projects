@@ -122,6 +122,7 @@
     color: #424242;
     overflow: hidden;
     line-height: 100px;
+    z-index: 3;
 }
 .cart:hover>.cart-list{
     height: 100px;
